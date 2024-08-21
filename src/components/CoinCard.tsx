@@ -34,7 +34,7 @@ const CoinCard: FC<CoinCardProps> = ({ coin }) => {
                     {coin.price_change_percentage_24h.toFixed(2)}%
                 </Text>
             </Flex>
-            <CoinCardModal isOpen={isOpen} onClose={onClose} />
+            <CoinCardModal isOpen={isOpen} onClose={onClose} coin={coin} />
         </>
     );
 };

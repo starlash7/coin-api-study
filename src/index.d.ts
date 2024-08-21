@@ -13,8 +13,11 @@ interface Coin {
     market_cap: number;
     market_cap_rank: number;
     total_volume: number;
+    total_supply: number;
     high_24h: number;
     low_24h: number;
     price_change_24h: number;
     price_change_percentage_24h: number;
+    ath: number;
+    ath_change_percentage: number;
 }
